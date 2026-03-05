@@ -5,15 +5,15 @@
 }
 
 :root {
-  --clr-primary:   #9c19b0;
-  --clr-primary-d: #9115a1;
-  --clr-accent:    #F0ABFC;
+  --clr-primary:   #e60026;
+  --clr-primary-d: #ff3366;
+  --clr-accent:    #ff69b4;
   --clr-dark:      #0D0D0D;
   --clr-dark-2:    #141414;
   --clr-light:     #141414;
   --clr-white:     #FFFFFF;
-  --clr-text:      #F0F0F0;
-  --clr-muted:     #A1A1AA;
+  --clr-text:      #fff0f5;
+  --clr-muted:     #ffb6c1;
   --clr-border:    #2A2A2A;
 
   --bg-section-light:  #141414;
@@ -50,17 +50,17 @@
   --hover-inv:  rgba(255,255,255,0.04);
 
   --nav-link:       rgba(255,255,255,0.65);
-  --nav-link-hover: #FFFFFF;
+  --nav-link-hover: #ff3366;
 
-  --bg-footer: #0D0D0D;
+  --bg-footer: #b8003c;
 }
 
 [data-theme="light"] {
-  --clr-primary:   #7C3AED;
-  --clr-primary-d: #6D28D9;
-  --clr-accent:    #9333EA;
-  --clr-text:      #1A1A1A;
-  --clr-muted:     #5A5A72;
+  --clr-primary:   #e60026;
+  --clr-primary-d: #ff3366;
+  --clr-accent:    #ff69b4;
+  --clr-text:      #b8003c;
+  --clr-muted:     #ff4f8b;
   --clr-border:    #E8E8F0;
   --clr-white:     #FFFFFF;
 
@@ -80,9 +80,9 @@
   --hover-inv:  rgba(17,17,17,0.03);
 
   --nav-link:       rgba(26,26,26,0.6);
-  --nav-link-hover: #1A1A1A;
+  --nav-link-hover: #ff3366;
 
-  --bg-footer: #F8F8FC;
+  --bg-footer: #ffe4ee;
   --shadow-sm: 0 2px 12px rgba(124,58,237,0.08);
   --shadow-md: 0 12px 40px rgba(124,58,237,0.16);
 }
@@ -247,7 +247,7 @@ body {
   display: flex;
   align-items: center;
   transition: background 0.4s ease, color 0.4s ease;
-  background: linear-gradient(to right, #9b2778 0%, #a722a7 40%, #7630ac 75%, #671aa7 100%);
+  background: linear-gradient(to right, #ff69b4 0%, #ff3366 40%, #e60026 75%, #b8003c 100%);
   overflow: hidden;
   padding-top: 68px;
 }
@@ -564,11 +564,12 @@ body {
   top: 24px;
   right: 28px;
   font-size: 3rem;
-  font-weight: var(--fw-extra);
-  color: var(--clr-primary);
-  opacity: 0.12;
+  font-weight: 900;
+  color: #ff3366;
+  opacity: 0.85;
   line-height: 1;
   pointer-events: none;
+  text-shadow: 0 2px 12px rgba(255,51,102,0.18);
 }
 
 .area-icon {
