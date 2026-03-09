@@ -52,7 +52,7 @@
   --nav-link:       rgba(255,255,255,0.65);
   --nav-link-hover: #ff3366;
 
-  --bg-footer: #b8003c;
+  --bg-footer: #0F0F0F;
 }
 
 [data-theme="light"] {
@@ -82,7 +82,7 @@
   --nav-link:       rgba(26,26,26,0.6);
   --nav-link-hover: #ff3366;
 
-  --bg-footer: #ffe4ee;
+  --bg-footer: #ffd4e0;
   --shadow-sm: 0 2px 12px rgba(124,58,237,0.08);
   --shadow-md: 0 12px 40px rgba(124,58,237,0.16);
 }
@@ -1360,5 +1360,8 @@ body {
 }
 
 a {
+  text-decoration: none;
+}
+.footer-policy-link {
   text-decoration: none;
 }
